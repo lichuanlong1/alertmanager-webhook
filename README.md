@@ -15,3 +15,7 @@ receivers:
   - url: 'http://127.0.0.1:8000/connect'
     send_resolved: true
  ```
+
+
+- 使用
+docker run -d -p 8000:8000 --name xxx -e Wechat_Webhook_URL='xxx' registry.cn-hangzhou.aliyuncs.com/lcl-work/lcl:alert-webhook
